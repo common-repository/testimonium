@@ -1,0 +1,52 @@
+/* General Styles */
+
+.testimonial-content {
+	font-size: 0.85em;
+}
+
+.testimonial-user {
+	text-align: right;
+}
+
+/* Layout 1 */
+
+.testimonium.layout-1 ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.testimonium.layout-1 ul li{
+	margin-bottom: 25px;
+	float: left;
+	width: 100%;
+}
+
+.testimonium.layout-1 ul li img {
+	float: left;
+	margin-right: 15px;
+}
+
+/* Layout 2 */
+
+.testimonium .unslider-arrow {
+	display: block;
+	color: rgba(0, 0, 0, 0.5);
+	box-shadow: none;
+	font-size: 1.4em;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+
+.testimonium .unslider-arrow:hover {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.testimonium .unslider-nav ol li {
+	width: 10px;
+	height: 10px;
+	border: 2px solid rgba(100, 100, 100, 0.5);
+}
+
+.testimonium .unslider-nav ol li.unslider-active {
+	background-color: #CCC;
+}
